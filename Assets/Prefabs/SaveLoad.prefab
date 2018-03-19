@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1082635708075090}
+  m_IsPrefabParent: 1
+--- !u!1 &1082635708075090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4867065828464998}
+  - component: {fileID: 114865049062419190}
+  - component: {fileID: 114414161029267010}
+  m_Layer: 0
+  m_Name: SaveLoad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4867065828464998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082635708075090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114414161029267010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082635708075090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7948047714c4a4e8289e3ca51ee547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentObject: {fileID: 1383142505960386, guid: 4574fc5ac3929bd4985d74ca8b299dfc,
+    type: 2}
+  BrushObject:
+  - {fileID: 1520903646537592, guid: 3f6756e10441aac4dbab46109d553226, type: 2}
+  - {fileID: 1810455884838262, guid: c2b9d299bc3407742aa12cb8054f001a, type: 2}
+  - {fileID: 1336548122098954, guid: 28e88aadf93c7d94580efd20f59fcf58, type: 2}
+  - {fileID: 1538167588323664, guid: c1e704513feb79c4d88cc700049b026e, type: 2}
+  - {fileID: 1452885078273398, guid: 0dfa9952b6986804aba184b154de007b, type: 2}
+  BrushMesh:
+  - {fileID: 4300000, guid: a6f2f61356f9e3f40811a22a539c754e, type: 3}
+  - {fileID: 4300000, guid: 8e0d0ab670e17f64687d76c093003e1e, type: 3}
+  - {fileID: 4300000, guid: abb6fb6279ca0ff45a2167113f19886c, type: 3}
+  - {fileID: 4300000, guid: 7fe6880daf0d3a44aa0c694a804c96f6, type: 3}
+  - {fileID: 4300000, guid: f16fc54e1164a6d4ea8a1f716d85450e, type: 3}
+  BrushMaterials:
+  - {fileID: 2100000, guid: 9d9e691df9f7d5644b374ea771b4cff2, type: 2}
+  - {fileID: 2100000, guid: 28d48ad69710b364a88d5170a9dff8ce, type: 2}
+  - {fileID: 2100000, guid: 50f62d21e7f2441b8b90b11022bd9f8c, type: 2}
+  - {fileID: 2100000, guid: 2cb75875e9edcc846bb31e499e8d3ce3, type: 2}
+  - {fileID: 2100000, guid: fa3209336e033f2478e244784bb54e1c, type: 2}
+  - {fileID: 2100000, guid: 47cef7e8a82a2454692e45274fa7e0d5, type: 2}
+  ColorNames:
+  - _TintColor
+  - 
+  - _EmissionColor
+  - _Value1
+  - _TintColor
+  - _Color
+  LoadforViewing: 0
+--- !u!114 &114865049062419190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1082635708075090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72131d8ba0e6dac40bdf9785bd6545e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
